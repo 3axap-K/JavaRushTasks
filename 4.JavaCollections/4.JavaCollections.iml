@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="fasterxml.jackson.core" level="project" />
+    <orderEntry type="library" exported="" name="fasterxml.jackson.core.databind" level="project" />
+    <orderEntry type="library" exported="" name="fasterxml.jackson.core.annotations" level="project" />
+    <orderEntry type="library" exported="" name="istack-commons-runtime-3.0.11" level="project" />
+    <orderEntry type="library" exported="" name="slf4j.api" level="application" />
+    <orderEntry type="library" name="log4j" level="application" />
+    <orderEntry type="library" name="slf4j.log4j.over" level="application" />
+    <orderEntry type="library" name="slf4j.nop" level="application" />
+  </component>
+</module>
