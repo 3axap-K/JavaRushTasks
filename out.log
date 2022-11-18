@@ -1716,3 +1716,17 @@ java.lang.StringIndexOutOfBoundsException: begin -1, end 58, length 58
 2022-11-17 02:09:55 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2022-11-17 02:09:56 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2022-11-17 02:09:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-17 02:10:55 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-17 02:10:55 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-11-17 02:10:57 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-11-17 02:34:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-17 02:34:11 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-17 02:34:12 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-17 02:34:13 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-17 02:34:21 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-17 02:34:21 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-11-17 02:34:23 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-11-18 15:54:59 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-18 15:54:59 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 15:55:04 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-18 15:55:04 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
