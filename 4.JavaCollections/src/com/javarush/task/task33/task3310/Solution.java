@@ -20,6 +20,8 @@ public class Solution {
         testStrategy(biMapStorageStrategy, 1000);
         HashBiMapStorageStrategy HashBiMapStorageStrategy = new HashBiMapStorageStrategy();
         testStrategy(HashBiMapStorageStrategy, 1000);
+        DualHashBidiMapStorageStrategy dualHashBidiMapStorageStrategy = new DualHashBidiMapStorageStrategy();
+        testStrategy(dualHashBidiMapStorageStrategy, 1000);
 
     }
 //6.2.1
