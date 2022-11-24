@@ -1730,3 +1730,465 @@ java.lang.StringIndexOutOfBoundsException: begin -1, end 58, length 58
 2022-11-18 15:54:59 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
 2022-11-18 15:55:04 INFO  ApacheHttpClient.completed(32) - responseCode = 200
 2022-11-18 15:55:04 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 15:55:39 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-18 15:55:39 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-11-18 15:55:41 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-11-18 16:38:00 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-18 16:38:00 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 16:38:00 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-18 16:39:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-18 16:39:12 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 16:39:12 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-18 16:42:17 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-18 16:42:17 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 16:42:20 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-18 16:42:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 16:42:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-18 16:42:24 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-11-18 16:42:27 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-11-18 19:13:19 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-11-18 19:13:19 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 19:13:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 19:13:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 19:13:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 19:13:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 19:13:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 19:13:20 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 19:13:21 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 19:13:21 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-18 19:13:21 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-11-18 20:08:17 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-11-18 20:08:17 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.60 ----------
+
+2022-11-18 20:08:17 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-11-18 20:08:17 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-11-18 20:08:17 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-11-18 20:08:17 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-11-20 17:29:24 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-20 17:29:25 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-20 17:29:27 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-20 17:29:29 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-20 17:36:21 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-20 17:36:22 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-11-20 17:36:25 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-11-21 01:37:57 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-21 01:37:57 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-21 01:38:01 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-21 01:41:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-21 01:41:52 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-21 01:41:56 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-21 02:00:30 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-21 02:00:30 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-21 02:00:34 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-21 02:01:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-21 02:01:06 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-21 02:01:10 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-21 02:01:10 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-21 02:01:25 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-21 02:01:25 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-11-21 02:01:28 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-11-21 02:10:06 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-11-21 02:10:07 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-21 02:10:07 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-21 02:10:07 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-21 02:10:09 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-11-21 19:05:46 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-11-21 19:05:46 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.60 ----------
+
+2022-11-21 19:05:47 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-11-21 19:05:47 INFO  ApacheHttpClient.logout(633) - Waiting for server response.
+2022-11-21 19:05:47 INFO  ApacheHttpClient.login(250) - Waiting for server response.
+2022-11-21 19:05:47 INFO  ApacheHttpClient.login(254) - responseCode = 500
+2022-11-21 19:05:47 WARN  ApacheHttpClient.login(268) - Error while signing in using a secret key. Check properties file.responseCode = 500
+com.homework.plugin.analytics.PluginWarningException: warning
+	at com.homework.plugin.client.ApacheHttpClient.login(ApacheHttpClient.java:268)
+	at com.homework.plugin.extension.ProjectStartupHandler.runActivity(ProjectStartupHandler.java:93)
+	at com.intellij.ide.startup.impl.StartupManagerImplKt.runStartupActivity(StartupManagerImpl.kt:511)
+	at com.intellij.ide.startup.impl.StartupManagerImplKt.access$runStartupActivity(StartupManagerImpl.kt:1)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runActivityAndMeasureDuration(StartupManagerImpl.kt:305)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runActivityAndMeasureDuration$default(StartupManagerImpl.kt:296)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$1$2.run(StartupManagerImpl.kt:260)
+	at com.intellij.openapi.project.DumbServiceImpl.doRun(DumbServiceImpl.java:395)
+	at com.intellij.openapi.project.DumbServiceImpl.updateFinished(DumbServiceImpl.java:387)
+	at com.intellij.openapi.project.TrackedEdtActivityService$TrackedEdtActivity.run(TrackedEdtActivityService.java:66)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:881)
+	at com.intellij.openapi.application.impl.ApplicationImpl$3.run(ApplicationImpl.java:513)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:75)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:118)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:42)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:779)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:730)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:749)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:918)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:766)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:450)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:791)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:449)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:624)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:447)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:881)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:493)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2022-11-21 19:05:48 INFO  AnalyticsService.run(86) - null : error in server. Status code :301
+2022-11-21 19:06:03 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-21 19:06:11 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-21 19:06:13 ERROR PluginUtil.updatePlugin(699) - Exception while updating the plugin, baselineVersion = 222
+java.lang.NoSuchMethodException: com.intellij.ide.plugins.PluginInstaller.installAfterRestart(java.nio.file.Path,boolean,java.nio.file.Path,com.intellij.ide.plugins.IdeaPluginDescriptor)
+	at java.base/java.lang.Class.getMethod(Class.java:2227)
+	at com.homework.plugin.PluginUtil.updatePlugin(PluginUtil.java:696)
+	at com.homework.plugin.PluginUtil.isPluginNeedUpdate(PluginUtil.java:542)
+	at com.homework.plugin.button.AbstractButton.checkPluginVersion(AbstractButton.java:52)
+	at com.homework.plugin.button.AbstractButton.performCheck(AbstractButton.java:33)
+	at com.homework.plugin.button.SelectTaskButton.actionPerformed(SelectTaskButton.java:27)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:190)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.lambda$performAction$0(ActionButton.java:166)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performDumbAwareWithCallbacks(ActionUtil.java:337)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:166)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:465)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6413)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5022)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2802)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:730)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:754)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:752)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:751)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:918)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:840)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:763)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:450)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:791)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:449)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:113)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:624)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:447)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:881)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:493)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2022-11-21 19:06:13 INFO  AnalyticsService.run(86) - null : error in server. Status code :301
+2022-11-21 19:06:15 INFO  ApacheHttpClient.login(250) - Waiting for server response.
+2022-11-21 19:06:15 INFO  ApacheHttpClient.login(254) - responseCode = 500
+2022-11-21 19:06:15 WARN  ApacheHttpClient.login(268) - Error while signing in using a secret key. Check properties file.responseCode = 500
+com.homework.plugin.analytics.PluginWarningException: warning
+	at com.homework.plugin.client.ApacheHttpClient.login(ApacheHttpClient.java:268)
+	at com.homework.plugin.button.AbstractButton.performCheck(AbstractButton.java:41)
+	at com.homework.plugin.button.SelectTaskButton.actionPerformed(SelectTaskButton.java:27)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:190)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.lambda$performAction$0(ActionButton.java:166)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performDumbAwareWithCallbacks(ActionUtil.java:337)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:166)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:465)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6413)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5022)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2802)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:730)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:754)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:752)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:751)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:918)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:840)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:763)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:450)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:791)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:449)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:113)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:624)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:447)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:881)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:493)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2022-11-21 19:06:16 INFO  AnalyticsService.run(86) - null : error in server. Status code :301
+2022-11-21 19:06:17 INFO  AnalyticsService.run(86) - null : error in server. Status code :301
+2022-11-22 02:57:26 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-22 02:57:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-22 02:57:34 ERROR PluginUtil.updatePlugin(699) - Exception while updating the plugin, baselineVersion = 222
+java.lang.NoSuchMethodException: com.intellij.ide.plugins.PluginInstaller.installAfterRestart(java.nio.file.Path,boolean,java.nio.file.Path,com.intellij.ide.plugins.IdeaPluginDescriptor)
+	at java.base/java.lang.Class.getMethod(Class.java:2227)
+	at com.homework.plugin.PluginUtil.updatePlugin(PluginUtil.java:696)
+	at com.homework.plugin.PluginUtil.isPluginNeedUpdate(PluginUtil.java:542)
+	at com.homework.plugin.button.AbstractButton.checkPluginVersion(AbstractButton.java:52)
+	at com.homework.plugin.button.AbstractButton.performCheck(AbstractButton.java:33)
+	at com.homework.plugin.button.ValidateButton.actionPerformed(ValidateButton.java:45)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:190)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.lambda$performAction$0(ActionButton.java:166)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performDumbAwareWithCallbacks(ActionUtil.java:337)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:166)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:465)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6413)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5022)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2802)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:730)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:754)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:752)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:751)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:918)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:840)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:763)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:450)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:791)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:449)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:113)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:624)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:447)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:881)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:493)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2022-11-22 02:57:35 INFO  AnalyticsService.run(86) - null : error in server. Status code :301
+2022-11-22 02:57:42 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-11-22 02:58:53 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-11-22 02:58:53 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.60 ----------
+
+2022-11-22 02:58:53 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(589) - The session is not set in the property file.
+2022-11-22 02:58:54 INFO  ApacheHttpClient.login(250) - Waiting for server response.
+2022-11-22 02:58:54 INFO  ApacheHttpClient.login(254) - responseCode = 500
+2022-11-22 02:58:54 WARN  ApacheHttpClient.login(268) - Error while signing in using a secret key. Check properties file.responseCode = 500
+com.homework.plugin.analytics.PluginWarningException: warning
+	at com.homework.plugin.client.ApacheHttpClient.login(ApacheHttpClient.java:268)
+	at com.homework.plugin.extension.ProjectStartupHandler.runActivity(ProjectStartupHandler.java:93)
+	at com.intellij.ide.startup.impl.StartupManagerImplKt.runStartupActivity(StartupManagerImpl.kt:511)
+	at com.intellij.ide.startup.impl.StartupManagerImplKt.access$runStartupActivity(StartupManagerImpl.kt:1)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runActivityAndMeasureDuration(StartupManagerImpl.kt:305)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runActivityAndMeasureDuration$default(StartupManagerImpl.kt:296)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$1$2.run(StartupManagerImpl.kt:260)
+	at com.intellij.openapi.project.DumbServiceImpl.doRun(DumbServiceImpl.java:395)
+	at com.intellij.openapi.project.DumbServiceImpl.updateFinished(DumbServiceImpl.java:387)
+	at com.intellij.openapi.project.TrackedEdtActivityService$TrackedEdtActivity.run(TrackedEdtActivityService.java:66)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:881)
+	at com.intellij.openapi.application.impl.ApplicationImpl$3.run(ApplicationImpl.java:513)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:75)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:118)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:42)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:779)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:730)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:749)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:918)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:766)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:450)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:791)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:449)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:624)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:447)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:881)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:493)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2022-11-22 02:58:54 INFO  AnalyticsService.run(86) - null : error in server. Status code :301
+2022-11-22 03:00:54 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-22 03:00:58 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-22 03:00:59 ERROR PluginUtil.updatePlugin(699) - Exception while updating the plugin, baselineVersion = 222
+java.lang.NoSuchMethodException: com.intellij.ide.plugins.PluginInstaller.installAfterRestart(java.nio.file.Path,boolean,java.nio.file.Path,com.intellij.ide.plugins.IdeaPluginDescriptor)
+	at java.base/java.lang.Class.getMethod(Class.java:2227)
+	at com.homework.plugin.PluginUtil.updatePlugin(PluginUtil.java:696)
+	at com.homework.plugin.PluginUtil.isPluginNeedUpdate(PluginUtil.java:542)
+	at com.homework.plugin.button.AbstractButton.checkPluginVersion(AbstractButton.java:52)
+	at com.homework.plugin.button.AbstractButton.performCheck(AbstractButton.java:33)
+	at com.homework.plugin.button.ValidateButton.actionPerformed(ValidateButton.java:45)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.actionPerformed(ActionButton.java:190)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.lambda$performAction$0(ActionButton.java:166)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performDumbAwareWithCallbacks(ActionUtil.java:337)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.performAction(ActionButton.java:166)
+	at com.intellij.openapi.actionSystem.impl.ActionButton.processMouseEvent(ActionButton.java:465)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6413)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5022)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2802)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4854)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:730)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:754)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:752)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:751)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:918)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:840)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:763)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:450)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:791)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:449)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:113)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:624)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:447)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:881)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:493)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2022-11-22 03:00:59 INFO  AnalyticsService.run(86) - null : error in server. Status code :301
+2022-11-22 03:01:04 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-11-22 03:06:16 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-11-22 03:06:16 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.60 ----------
+
+2022-11-22 03:06:16 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(589) - The session is not set in the property file.
+2022-11-22 03:06:16 INFO  ApacheHttpClient.login(250) - Waiting for server response.
+2022-11-22 03:06:17 INFO  ApacheHttpClient.login(254) - responseCode = 500
+2022-11-22 03:06:17 WARN  ApacheHttpClient.login(268) - Error while signing in using a secret key. Check properties file.responseCode = 500
+com.homework.plugin.analytics.PluginWarningException: warning
+	at com.homework.plugin.client.ApacheHttpClient.login(ApacheHttpClient.java:268)
+	at com.homework.plugin.extension.ProjectStartupHandler.runActivity(ProjectStartupHandler.java:93)
+	at com.intellij.ide.startup.impl.StartupManagerImplKt.runStartupActivity(StartupManagerImpl.kt:511)
+	at com.intellij.ide.startup.impl.StartupManagerImplKt.access$runStartupActivity(StartupManagerImpl.kt:1)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runActivityAndMeasureDuration(StartupManagerImpl.kt:305)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runActivityAndMeasureDuration$default(StartupManagerImpl.kt:296)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$1$2.run(StartupManagerImpl.kt:260)
+	at com.intellij.openapi.project.DumbServiceImpl.doRun(DumbServiceImpl.java:395)
+	at com.intellij.openapi.project.DumbServiceImpl.updateFinished(DumbServiceImpl.java:387)
+	at com.intellij.openapi.project.TrackedEdtActivityService$TrackedEdtActivity.run(TrackedEdtActivityService.java:66)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:209)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:21)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:191)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:881)
+	at com.intellij.openapi.application.impl.ApplicationImpl$3.run(ApplicationImpl.java:513)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:75)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:118)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:42)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:779)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:730)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:749)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:918)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:766)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$6(IdeEventQueue.java:450)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:791)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$7(IdeEventQueue.java:449)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueue.performActivity(IdeEventQueue.java:624)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:447)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:881)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:493)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2022-11-22 03:06:17 INFO  AnalyticsService.run(86) - null : error in server. Status code :301
+2022-11-22 03:08:01 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-11-22 03:08:54 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-11-22 03:08:54 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.01 ----------
+
+2022-11-22 03:08:54 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-11-22 03:08:54 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-11-22 03:09:05 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-22 03:09:06 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-11-22 03:09:09 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-11-22 03:10:00 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-11-22 03:10:00 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-22 03:10:00 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-11-24 01:22:06 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-11-24 01:22:06 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 4.01 ----------
+
+2022-11-24 01:22:07 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-11-24 01:22:07 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-11-24 01:22:07 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-11-24 01:22:07 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-11-24 01:50:35 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-24 01:50:36 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-24 01:50:39 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-24 01:50:39 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-24 01:50:50 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-24 01:50:50 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-11-24 01:50:52 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
