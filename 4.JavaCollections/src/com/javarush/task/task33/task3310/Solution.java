@@ -1,6 +1,7 @@
 package com.javarush.task.task33.task3310;
 
 import com.javarush.task.task33.task3310.strategy.*;
+import com.javarush.task.task33.task3310.tests.FunctionalTest;
 
 import javax.xml.crypto.Data;
 import java.util.Date;
@@ -10,6 +11,7 @@ import java.util.Set;
 public class Solution {
     public static void main(String[] args) {
         //6.2.4
+
         HashMapStorageStrategy strategy = new HashMapStorageStrategy();
         testStrategy(strategy, 1000);
         OurHashMapStorageStrategy ourStrategy = new OurHashMapStorageStrategy();
@@ -22,6 +24,8 @@ public class Solution {
         testStrategy(HashBiMapStorageStrategy, 1000);
         DualHashBidiMapStorageStrategy dualHashBidiMapStorageStrategy = new DualHashBidiMapStorageStrategy();
         testStrategy(dualHashBidiMapStorageStrategy, 1000);
+         
+
 
     }
 //6.2.1

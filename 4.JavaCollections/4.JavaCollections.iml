@@ -17,5 +17,7 @@
     <orderEntry type="library" name="slf4j.nop" level="application" />
     <orderEntry type="library" name="google.guava" level="application" />
     <orderEntry type="library" name="apache.commons.collections4" level="application" />
+    <orderEntry type="library" name="junit" level="application" />
+    <orderEntry type="library" name="hamcrest.core" level="application" />
   </component>
 </module>

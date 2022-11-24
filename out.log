@@ -2210,3 +2210,23 @@ com.homework.plugin.analytics.PluginWarningException: warning
 2022-11-24 02:11:33 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
 2022-11-24 02:11:34 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
 2022-11-24 02:11:35 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-11-24 17:42:58 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-24 17:42:58 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-24 17:43:00 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-24 17:43:01 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-24 17:43:01 INFO  AnalyticsService.run(86) - null : error in server. Status code :429
+2022-11-24 17:43:15 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-24 17:43:15 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-11-24 17:43:19 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-11-24 17:43:25 INFO  AnalyticsService.run(86) - null : error in server. Status code :429
+2022-11-24 19:30:51 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-24 19:30:51 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-24 19:30:55 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-24 19:30:55 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-24 19:31:02 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-24 19:31:02 INFO  ApacheHttpClient.getFilteredTasks(336) - responseCode = 200
+2022-11-24 19:31:05 INFO  ApacheHttpClient.getTaskTemplateInfo(353) - responseCode = 200
+2022-11-24 19:31:42 INFO  ApacheHttpClient.getWebResourceAsStream(502) - responseCode = 200
+2022-11-24 19:31:42 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2022-11-24 19:31:43 INFO  ApacheHttpClient.completed(32) - responseCode = 200
+2022-11-24 19:31:44 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
