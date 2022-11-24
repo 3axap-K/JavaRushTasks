@@ -15,5 +15,6 @@
     <orderEntry type="library" name="log4j" level="application" />
     <orderEntry type="library" name="slf4j.log4j.over" level="application" />
     <orderEntry type="library" name="slf4j.nop" level="application" />
+    <orderEntry type="library" name="google.guava" level="application" />
   </component>
 </module>
