@@ -1,6 +1,5 @@
 package com.javarush.task.task39.task3913;
 
-import com.javarush.task.task39.task3913.executors.*;
 import com.javarush.task.task39.task3913.query.*;
 
 import java.io.BufferedReader;
@@ -37,7 +36,7 @@ public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery, QLQ
                         while (reader.ready()) {
                             log = readLog(reader.readLine());
                             lDate = log.getDate().getTime();
-                            if (lAfter < lDate && lDate < lBefore) {
+                            if (lAfter <= lDate && lDate <= lBefore) {
                                 logs.add(log);
                             }
                         }
@@ -452,70 +451,274 @@ public class LogParser implements IPQuery, UserQuery, DateQuery, EventQuery, QLQ
         return map;
     }
 
-    @Override
-    public Set<Object> execute(String query) {
-        if (!query.startsWith("get")) return new HashSet<>();;
+    private Set<Date> getUniqueDates(Date after, Date before){
+        Set <Date> dates = new HashSet<>();
+        for (Log log : readLogs(after, before)){
 
-        String[] queryes = query.split("=" );
-        String arg = null;
-        AbstractExecute execute = null;
-        AbstractExecute.DataType type = null;
-        AbstractExecute.DataType argType = null;
-        Argument argument = null;
-        if (queryes.length == 2){
-            arg = queryes[1];
-        }else {
-            arg = null;
+            dates.add(log.getDate());
+
         }
-        queryes = queryes[0].split(" ");
-
-        if(arg != null){
-            argType = AbstractExecute.DataType.valueOf(queryes[3].toUpperCase());
-        }else{
-            argType = AbstractExecute.DataType.NULL;
+        return dates;
+    }
+    private Set<Date> getDatesForIP(String ip){
+        Set <Date> dates = new HashSet<>();
+        for (Log log : readLogs(null, null)){
+            if(ip.equals(log.getIp())) {
+                dates.add(log.getDate());
+            }
         }
-
-        argument = createArgument(arg, argType);
-        type = AbstractExecute.DataType.valueOf(queryes[1].toUpperCase());
-        execute = ExecuteFactory.createExecuteType(type, this, argument);
-
-        return new HashSet<>( execute.getData());
-
+        return dates;
     }
 
-    private  Argument createArgument(String arg, AbstractExecute.DataType type){
-        if(arg != null) {
+    private Set<Date> getDatesForEvent(Event event){
+        Set <Date> dates = new HashSet<>();
+        for (Log log : readLogs(null, null)){
+            if(event.equals(log.getEvent())) {
+                dates.add(log.getDate());
+            }
+        }
+        return dates;
+    }
 
-            String[] argument = arg.split("\"");
-            Date after = null;
-            Date before = null;
-            if (argument.length > 2) {
+    private Set<Date> getDatesForStatus(Status status){
+        Set <Date> dates = new HashSet<>();
+        for (Log log : readLogs(null, null)){
+            if(status.equals(log.getStatus())) {
+                dates.add(log.getDate());
+            }
+        }
+        return dates;
+    }
+
+    private Set<Date> getDatesForUser(String user){
+        Set <Date> dates = new HashSet<>();
+        for (Log log : readLogs(null, null)){
+            if(user.equals(log.getUser())) {
+                dates.add(log.getDate());
+            }
+        }
+        return dates;
+    }
+    private Set<Event> getUniqueEvents(Date after, Date before){
+        Set <Event> events = new HashSet<>();
+        for (Log log : readLogs(after, before)){
+
+            events.add(log.getEvent());
+
+        }
+        return events;
+    }
+
+    private Set<Status> getUniqueStatus(Date after, Date before){
+        Set <Status> statuses = new HashSet<>();
+        for (Log log : readLogs(after, before)){
+
+            statuses.add(log.getStatus());
+
+        }
+        return statuses;
+    }
+    
+    private Set<String> getUsersForDate(Date parse) {
+        Set <String> users = new HashSet<>();
+        for (Log log : readLogs(parse, parse)){
+            users.add(log.getUser());
+        }
+        return users;
+    }
+
+    private Set<String> getUsersForEvent(Event event, Date after, Date before) {
+        Set <String> users = new HashSet<>();
+        for (Log log : readLogs(after, before)){
+            if(event.equals(log.getEvent())) {
+                users.add(log.getUser());
+            }
+        }
+        return users;
+    }
+
+    private Set<String> getUsersForStatus(Status status, Date after, Date before) {
+        Set <String> users = new HashSet<>();
+        for (Log log : readLogs(after, before)){
+            if(status.equals(log.getStatus())) {
+                users.add(log.getUser());
+            }
+        }
+        return users;
+    }
+
+    private Set<Event> getEventsForDate(Date parse) {
+        Set <Event> events = new HashSet<>();
+        for (Log log : readLogs(parse, parse)){
+            events.add(log.getEvent());
+        }
+        return events;
+    }
+
+    private Set<Event> getEventsForStatus(Status status, Date after, Date before) {
+        Set <Event> events = new HashSet<>();
+        for (Log log : readLogs(after, before)){
+            if(status.equals(log.getStatus())) {
+                events.add(log.getEvent());
+            }
+        }
+        return events;
+    }
+
+    private Set<Status> getStatusesForIP(String ip){
+        Set <Status> statuses = new HashSet<>();
+        for (Log log : readLogs(null, null)){
+            if(ip.equals(log.getIp())) {
+                statuses.add(log.getStatus());
+            }
+        }
+        return statuses;
+    }
+
+    private Set<Status> getStatusesForDate(Date parse) {
+        Set <Status> statuses = new HashSet<>();
+        for (Log log : readLogs(parse, parse)){
+            statuses.add(log.getStatus());
+        }
+        return statuses;
+    }
+
+    private Set<Status> getStatusesForUser(String user, Date after, Date before){
+        Set <Status> statuses = new HashSet<>();
+        for (Log log : readLogs(null, null)){
+            if(user.equals(log.getUser())) {
+                statuses.add(log.getStatus());
+            }
+        }
+        return statuses;
+    }
+
+    private Set<Status> getStatusesForEvent(Event event, Date after, Date before) {
+        Set <Status> statuses = new HashSet<>();
+        for (Log log : readLogs(after, before)){
+            if(event.equals(log.getEvent())) {
+                statuses.add(log.getStatus());
+            }
+        }
+        return statuses;
+    }
+    @Override
+    public Set<Object> execute(String query) {
+        String[] queryes = query.split(" " );
+        String arg = null;
+        if (query.contains("=")){
+            arg = query.substring(query.indexOf("\"") + 1, query.lastIndexOf("\"") );
+        }
+        if (queryes[0].equals("get")) {
+            switch (queryes[1]) {
+                case "ip":
+                    if(queryes.length == 2){  return new HashSet<>(getUniqueIPs(null, null));}
+                    return executeIp(queryes[3], arg);                    
+                case "user":
+                    if(queryes.length == 2){  return new HashSet<>(getAllUsers());}
+                    return executeUser(queryes[3], arg);
+                case "date":
+                    if(queryes.length == 2){  return new HashSet<>(getUniqueDates(null, null));}
+                    return executeDate(queryes[3], arg);
+                case "event":
+                    if(queryes.length == 2){  return new HashSet<>(getUniqueEvents(null, null));}
+                    return executeEvent(queryes[3], arg);
+                case "status":
+                    if(queryes.length == 2){  return new HashSet<>(getUniqueStatus(null, null));}
+                    return executeStatus(queryes[3], arg);                    
+            }
+        }
+
+    
+        return new HashSet<>();
+    }
+
+    private Set<Object> executeStatus(String querye, String arg) {
+        switch (querye){
+            case "ip":
+                return new HashSet<>(getStatusesForIP(arg));
+            case "date":
                 try {
-                    after = format.parse(argument[3]);
-                    before = format.parse(argument[5]);
+                    return new HashSet<>(getStatusesForDate(format.parse(arg)));
                 } catch (ParseException e) {
                     throw new RuntimeException(e);
                 }
-            }
-
-
-            switch (type){
-                case IP:
-                case USER:
-                    return new Argument<String>(argument[1], type, after, before);
-                case DATE:
-                    try {
-                        return new Argument<Date>(format.parse(argument[1]), type, after, before);
-                    } catch (ParseException e) {
-                       throw new RuntimeException(e);
-                    }
-                case EVENT:
-                    return new Argument<Event>(Event.valueOf(argument[1]), type, after, before);
-                case STATUS:
-                    return new Argument<Status>(Status.valueOf(argument[1]), type, after, before);
-            }
+            case "user":
+                return new HashSet<>(getStatusesForUser(arg, null, null));
+            case "event":
+                return new HashSet<>(getStatusesForEvent(Event.valueOf(arg), null, null));
         }
-        return new Argument<>(null, type, null, null);
+        return new HashSet<>();
     }
 
+    private Set<Object> executeEvent(String querye, String arg) {
+        switch (querye){
+            case "ip":
+                return new HashSet<>(getEventsForIP(arg, null, null));
+            case "date":
+                try {
+                    return new HashSet<>(getEventsForDate(format.parse(arg)));
+                } catch (ParseException e) {
+                    throw new RuntimeException(e);
+                }
+            case "user":
+                return new HashSet<>(getEventsForUser(arg, null, null));
+            case "status":
+                return new HashSet<>(getEventsForStatus(Status.valueOf(arg), null, null));
+        }
+        return new HashSet<>();
+    }
+
+    private Set<Object> executeDate(String querye, String arg) {
+        switch (querye){
+            case "user":
+                return new HashSet<>(getDatesForUser(arg));
+            case "ip":
+                return new HashSet<>(getDatesForIP(arg));
+            case "event":
+                return new HashSet<>(getDatesForEvent(Event.valueOf(arg)));
+            case "status":
+                return new HashSet<>(getDatesForStatus(Status.valueOf(arg)));
+        }
+        return new HashSet<>();
+    }
+
+    private Set<Object> executeUser(String querye, String arg) {
+        switch (querye){
+            case "ip":
+                return new HashSet<>(getUsersForIP(arg, null, null));
+            case "date":
+                try {
+                    return new HashSet<>(getUsersForDate(format.parse(arg)));
+                } catch (ParseException e) {
+                    throw new RuntimeException(e);
+                }
+            case "event":
+                return new HashSet<>(getUsersForEvent(Event.valueOf(arg), null, null));
+            case "status":
+                return new HashSet<>(getUsersForStatus(Status.valueOf(arg), null, null));
+        }
+        return new HashSet<>();
+    }
+
+
+
+
+    private Set<Object> executeIp(String querye, String arg) {
+        switch (querye){
+            case "user":
+                return new HashSet<>(getIPsForUser(arg, null, null));
+            case "date":
+                try {
+                    return new HashSet<>(getUniqueIPs(format.parse(arg), format.parse(arg)));
+                } catch (ParseException e) {
+                    throw new RuntimeException(e);
+                } 
+            case "event":
+                return new HashSet<>(getIPsForEvent(Event.valueOf(arg), null, null)); 
+            case "status":
+                return new HashSet<>(getIPsForStatus(Status.valueOf(arg), null, null));
+        }
+        return new HashSet<>();
+    }
 }
