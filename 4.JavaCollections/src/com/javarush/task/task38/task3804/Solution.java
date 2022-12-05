@@ -14,6 +14,5 @@ public class Solution {
         System.out.println(FactoryException.creatorException(DatabaseExceptionMessage.NOT_ENOUGH_CONNECTIONS));
         System.out.println(FactoryException.creatorException(UserExceptionMessage.USER_DOES_NOT_HAVE_PERMISSIONS));
         System.out.println(FactoryException.creatorException(null));
-
     }
 }
